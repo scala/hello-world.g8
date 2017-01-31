@@ -1,3 +1,3 @@
-object Hello extends App {
+object Main extends App {
   println("Hello, World!")
 }
