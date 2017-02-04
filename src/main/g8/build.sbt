@@ -65,7 +65,7 @@ libraryDependencies += "org.typelevel" %% "cats" % "0.9.0"
 // lazy val root = (project in file(".")).
 //   settings(
 //     inThisBuild(List(
-//       organization := "com.example",
+//       organization := "ch.epfl.scala",
 //       scalaVersion := "2.12.1"
 //     )),
 //     name := "hello-world"
