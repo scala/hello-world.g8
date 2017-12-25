@@ -44,7 +44,7 @@ libraryDependencies += "org.typelevel" %% "cats" % "0.9.0"
 // dependency from the sbt box on the right-hand side of the screen.
 
 // IMPORTANT NOTE: while build files look _kind of_ like regular Scala, it's
-// imporant to note that syntax in *.sbt files doesn't always behave like
+// important to note that syntax in *.sbt files doesn't always behave like
 // regular Scala. For example, notice in this build file that it's not required
 // to put our settings into an enclosing object or class. Always remember that
 // sbt is a bit different, semantically, than vanilla Scala.
