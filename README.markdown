@@ -2,7 +2,7 @@ A [Giter8][g8] template for a Hello World application
 
 Template license
 ----------------
-Written in 2017 by the Scala Center
+Written in 2017-2018 by the Scala Center
 [other author/contributor lines as appropriate]
 
 To the extent possible under law, the author(s) have dedicated all copyright and related
