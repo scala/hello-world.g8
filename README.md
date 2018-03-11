@@ -1,4 +1,4 @@
-A [Giter8][g8] template for a Hello World application
+A [Giter8][g8] template for a Hello World application, used in the [Getting Started with Scala guide](https://docs.scala-lang.org/getting-started-sbt-track/getting-started-with-scala-and-sbt-on-the-command-line.html).
 
 Template license
 ----------------
