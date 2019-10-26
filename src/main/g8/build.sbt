@@ -7,7 +7,7 @@ scalaVersion := "2.13.1"
 
 // ============================================================================
 
-// Lines like the above defining `scalaVersion` are called "settings" Settings
+// Lines like the above defining `scalaVersion` are called "settings". Settings
 // are key/value pairs. In the case of `scalaVersion`, the key is "scalaVersion"
 // and the value is "2.13.1"
 
@@ -28,7 +28,7 @@ libraryDependencies += "org.typelevel" %% "cats-core" % "2.0.0"
 // Here, `libraryDependencies` is a set of dependencies, and by using `+=`,
 // we're adding the cats dependency to the set of dependencies that sbt will go
 // and fetch when it starts up.
-// Now, in any Scala file, you can import classes, objects, etc, from cats with
+// Now, in any Scala file, you can import classes, objects, etc., from cats with
 // a regular import.
 
 // TIP: To find the "dependency" that you need to add to the
