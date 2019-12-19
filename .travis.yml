@@ -7,7 +7,8 @@ cache:
     - $HOME/.sbt/boot/
 
 jdk:
-  - oraclejdk8
+  - openjdk8
+  - openjdk11
 
 script:
   ## This runs the template with the default parameters, and runs test within the templated app.
