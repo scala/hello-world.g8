@@ -26,3 +26,7 @@ project/boot/
 .ensime_cache/
 .ensime
 /src/main/g8/project/target/
+
+# Metals specific
+.metals
+project/metals.sbt
