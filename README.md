@@ -2,7 +2,7 @@ A [Giter8][g8] template for a Hello World application, used in the [Getting Star
 
 Template license
 ----------------
-Written in 2017-2021 by the Scala Center
+Written in 2017-2022 by the Scala Center
 
 To the extent possible under law, the author(s) have dedicated all copyright and related
 and neighboring rights to this template to the public domain worldwide.
