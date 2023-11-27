@@ -1,7 +1,7 @@
 
 // The simplest possible sbt build file is just one line:
 
-scalaVersion := "2.13.8"
+scalaVersion := "2.13.12"
 // That is, to create a valid sbt build, all you've got to do is define the
 // version of Scala you'd like your project to use.
 
@@ -9,7 +9,7 @@ scalaVersion := "2.13.8"
 
 // Lines like the above defining `scalaVersion` are called "settings". Settings
 // are key/value pairs. In the case of `scalaVersion`, the key is "scalaVersion"
-// and the value is "2.13.8"
+// and the value is "2.13.12"
 
 // It's possible to define many kinds of settings, such as:
 
@@ -25,7 +25,7 @@ version := "1.0"
 // Want to use a published library in your project?
 // You can define other libraries as dependencies in your build like this:
 
-libraryDependencies += "org.scala-lang.modules" %% "scala-parser-combinators" % "2.1.1"
+libraryDependencies += "org.scala-lang.modules" %% "scala-parser-combinators" % "2.3.0"
 
 // Here, `libraryDependencies` is a set of dependencies, and by using `+=`,
 // we're adding the scala-parser-combinators dependency to the set of dependencies
@@ -36,7 +36,7 @@ libraryDependencies += "org.scala-lang.modules" %% "scala-parser-combinators" % 
 // TIP: To find the "dependency" that you need to add to the
 // `libraryDependencies` set, which in the above example looks like this:
 
-// "org.scala-lang.modules" %% "scala-parser-combinators" % "2.1.1"
+// "org.scala-lang.modules" %% "scala-parser-combinators" % "2.3.0"
 
 // You can use Scaladex, an index of all known published Scala libraries. There,
 // after you find the library you want, you can just copy/paste the dependency
@@ -68,7 +68,7 @@ libraryDependencies += "org.scala-lang.modules" %% "scala-parser-combinators" % 
 //   settings(
 //     inThisBuild(List(
 //       organization := "ch.epfl.scala",
-//       scalaVersion := "2.13.8"
+//       scalaVersion := "2.13.12"
 //     )),
 //     name := "hello-world"
 //   )
