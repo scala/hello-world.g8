@@ -16,6 +16,7 @@ jobs:
       with:
         distribution: temurin
         java-version: 8
+    - uses: sbt/setup-sbt@v1
     - name: Test
       # This runs the template with the default parameters, and runs test within the templated app.
       run: sbt -Dfile.encoding=UTF8 -J-XX:ReservedCodeCacheSize=256M test
